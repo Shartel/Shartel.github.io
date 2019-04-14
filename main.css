@@ -217,7 +217,13 @@ color:rgb(89,89,91);
  padding-left:15px;
  font-family: "Brush Script MT", cursive;
 }
+.hss{
 
+  font-size: 50px;
+  margin-bottom: 1em;
+ padding-left:15px;
+ font-family: "Brush Script MT", cursive;
+}
 	
 	
 .button {
@@ -367,3 +373,9 @@ li {
 }
 #myNavbar li{
 	font-weight:bold;    }
+
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: rgb(89,89,91);
+  background-color:white;
+}
