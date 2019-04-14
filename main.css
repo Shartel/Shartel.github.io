@@ -1,0 +1,369 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;}
+body{
+    font-size: 15px;
+}
+
+
+
+
+.footer{
+    
+    overflow: hidden;
+    background-color:white;
+    
+    width: 100%;
+    vertical-align: center;
+}
+.footer img{
+    height: 70px;
+    float: right;
+}
+.infoc{
+
+     color:rgb(89,89,91);
+  
+    float: right;
+
+    width: 100%;
+    margin: 25px 0px;
+
+}
+.s{
+
+    float: right;
+}
+.Home{
+    background-image:url("images/homeb.jpg");
+    height: 750px;
+    padding-top: 250px;
+}
+.scroll{
+	padding-top:240px;
+	float:bottom;
+	color:white;
+	text-shadow: 1px 1px black;
+	}
+.Projects{
+    background-color:rgb(89,89,91); 
+    padding:50px 30px;
+    color: white;
+	
+}
+.Projects a{
+    text-decoration: none;
+     color: white;
+}
+.Projects a:hover {
+    text-decoration: none;
+    color:rgb(229, 59, 87);
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.pros{
+    padding-bottom: 20px;
+    
+}
+.pros:hover{
+    background-color: rgb(155, 155, 155);
+    border-radius: 20px;
+}
+.fa{padding: 2px;
+color:rgb(89,89,91);
+
+}
+.About{
+	padding:50px 0px;
+    margin: 30px;
+    color: rgb(89,89,91);
+}
+.About ul{margin-left: : 30px;}
+.main{
+    vertical-align: center;
+    color: white;
+    font-family: "Brush Script MT", cursive;
+    font-size: 80px;
+	text-shadow: 1px 1px black;
+}
+.pro{
+	    font-family: "Brush Script MT", cursive;
+		color: white;
+		font-size: 50px;
+		
+	}
+.Home{
+    vertical-align: center
+
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.hs{
+  color: white;
+  font-size: 50px;
+  margin-bottom: 1em;
+ padding-left:15px;
+ font-family: "Brush Script MT", cursive;
+}
+
+	
+	
+.button {
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  float: right;
+  background-color:rgb(89,89,91);
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.slides{
+	padding:20px;}
+.sli{
+	padding:20px;
+	border-radus:20px;
+	
+		}
+.sli:hover{
+	background-color:grey;
+	border-radus:20px;
+}
+
+
+.container {
+  width: 100%;
+  min-width: 740px;
+  margin: 0 auto;
+}
+
+
+
+img.logo {
+	float: left;
+	top:0;
+	left:0;
+	height:70px;
+}
+
+.navbar-nav a:hover{
+background-color:white;
+}
+navbar{
+	background-color: rgb(89,89,91);
+	border:none;
+	margin:none;
+}
+
+/* Header */
+
+header {
+	background-color: rgb(89,89,91);
+
+	float: left;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Amaranth', sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+header a:focus{
+	color: #3d3d3d;
+	text-decoration:none;
+}
+header a:hover{
+	color: #3d3d3d;
+	text-decoration:none;
+}
+header li {
+	margin-right: 30px;
+}
+
+/* header large */
+header.large {
+	height: 71px;
+	background-color:transparent;
+}
+header.large img {
+  margin-left:0px;
+}
+header.large li {
+	padding: 10px;
+}
+
+/* header small */
+
+header.small {
+	height: 45px;
+}
+header.small img {
+	height:53px;
+}
+header.small li {
+	padding: 0px;
+	margin: 2px;
+}
+
+/* Transitions */
+
+header,
+nav,
+a,
+img,
+li {
+	transition: .7s all;
+	-moz-transition: .7s all;
+	-webkit-transition: .7s all;
+	-o-transition: .7s all;
+}
+#myNavbar li{
+	font-weight:bold;    }
